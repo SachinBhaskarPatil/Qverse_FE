@@ -1,0 +1,50 @@
+{
+    "audioSeries": {
+      "seriesName": "Haunted Tales",
+      "totalEpisodes": 12,
+      "episodes": [
+        {
+          "id": 1,
+          "title": "Whispers of the Past",
+          "audioFile": "/assets/Ramayans.mp3",
+          "duration": "16:00",
+          "episodeNumber": "1/12",
+          "backgroundImage": "https://s3-alpha-sig.figma.com/img/27c1/1b7b/ac46b4eae687669cab464b51d7deb289?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BSnqex1g5WIG6LxR6ofU7ebyq1mrO5m-AjpUwl8Ijlg7S4KXMphTmYmtBKqhM7KShwhgzQB2~hl9kT96OPidp8OKltYgMuS6vBVm6tBWswTGkuAQK729m2mtokGTyXWAXVBcQB94qijU2eKhLgJ6jRzq515YfmSaN6eVViopHUXFGJh7rny~TfQ~kycZGM6Cms~GsEP2~13AlSD8jGU7T9VlanVE1Q19RbB7T6EIcqrROlUGtZBueQLKjV9eL7LwBWKeQn9LjrhlPfBwKke2odIY-rcN9Js3UzAlF98BtYRNWkmiNe78NfrCBoer8gJPax3MmA-jQO7MBN5UxTT8gQ__",
+          "description": "A mysterious figure stands before an abandoned Victorian mansion, where whispers of the past echo through its halls.",
+          "isPlaying": false,
+          "hasNext": true,
+          "hasPrevious": false
+        },
+        {
+          "id": 2,
+          "title": "The Mansion's Secret",
+          "audioFile": "/assets/episode2.mp3",
+          "duration": "18:30",
+          "episodeNumber": "2/12",
+          "backgroundImage": "/assets/mansion-secret.jpg",
+          "description": "Deep within the mansion's walls, a hidden room holds centuries of dark secrets waiting to be uncovered.",
+          "isPlaying": false,
+          "hasNext": true,
+          "hasPrevious": true
+        },
+        {
+          "id": 3,
+          "title": "Shadows in the Dark",
+          "audioFile": "/assets/episode3.mp3",
+          "duration": "17:15",
+          "episodeNumber": "3/12",
+          "backgroundImage": "/assets/shadows-dark.jpg",
+          "description": "As night falls, mysterious shadows dance through the corridors, revealing the mansion's supernatural inhabitants.",
+          "isPlaying": false,
+          "hasNext": true,
+          "hasPrevious": true
+        }
+      ],
+      "navigation": {
+        "currentEpisode": 1,
+        "totalEpisodes": 12,
+        "canSkipForward": true,
+        "canSkipBackward": false
+      }
+    }
+  }

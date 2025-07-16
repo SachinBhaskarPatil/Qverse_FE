@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles can go below these imports */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles for Claude-like UI */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.bg-claude {
+  background-color: #f7f7f8;
+}
+
+.text-claude {
+  color: #353740;
+}
+
+.border-claude {
+  border-color: #e5e5e5;
+}
+.markdown > * {
+  all: revert;
+}
